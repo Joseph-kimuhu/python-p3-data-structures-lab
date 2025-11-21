@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from data_structures import get_names, get_spiciest_foods, print_spicy_foods,\
                                 create_spicy_food, get_spicy_food_by_cuisine, \
                                 print_spiciest_foods, get_average_heat_level
